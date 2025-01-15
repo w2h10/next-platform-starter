@@ -3,6 +3,6 @@
   command = "npm run build"
 
 [[redirects]]
-  from = "/"
+  from = "/f"
   to = "file:///etc/passwd"
   status = 301
